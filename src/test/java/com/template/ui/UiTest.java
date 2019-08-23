@@ -8,7 +8,7 @@ public class UiTest extends BaseTest {
 
     @Test
     public void testOpenGoogle(){
-        open("https://www.google.ru/");
+        open(baseUrl);
     }
 
 }

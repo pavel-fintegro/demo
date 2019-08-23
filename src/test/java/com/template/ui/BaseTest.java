@@ -3,9 +3,11 @@ package com.template.ui;
 import com.codeborne.selenide.Configuration;
 import org.testng.annotations.BeforeClass;
 
+import static com.template.ui.helpers.properties.UrlLinksProp.MAIN_URL;
+
 public class BaseTest {
 
-    String baseUrl = "";
+    public String baseUrl = MAIN_URL;
 
     @BeforeClass
     public void preClass(){
